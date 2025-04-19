@@ -65,8 +65,8 @@ data = {
     "messages": messages,
     "stream": False,  # Set to True if you want streaming responses
     "options": {
-        # "num_predict": 50,  # limit to 50 tokens
-        "temperature": 0,
+        "num_predict": 50,  # limit to 50 tokens
+        "temperature": 0.8,
     },
 }
 
